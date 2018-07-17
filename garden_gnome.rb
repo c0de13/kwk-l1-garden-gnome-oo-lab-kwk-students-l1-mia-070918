@@ -1,8 +1,12 @@
 # Code your instances here
 class GardenGnome
   
+<<<<<<< HEAD
   def initialize(hat_color = "red ")
     @hat_color = hat_color
+=======
+  def initialize()
+>>>>>>> 0d2ba9b731f387d663094b1505ce821fe3ad78c4
   end   
   
 
@@ -34,6 +38,7 @@ class GardenGnome
   
   
   #Everyone gnows that that gnomes are all born evil.
+<<<<<<< HEAD
   def personality
     @personality = "evil"
   end 
@@ -67,5 +72,27 @@ class GardenGnome
   end 
   
   
+=======
+  #def personality
+   # @personality = "evil"
+  #end 
+  
+  
+  def hat_color
+    @hat_color = "red"
+  end
+  
+   def hat_color=(col)
+    @hat_color = col
+  end
+    
+  #def hat_color
+   # @hat_color
+  #end  
+    
+    
+    
+    
+>>>>>>> 0d2ba9b731f387d663094b1505ce821fe3ad78c4
     
 end #of class    
